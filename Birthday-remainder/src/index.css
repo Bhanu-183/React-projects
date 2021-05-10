@@ -1,0 +1,38 @@
+body {
+  background-color: aqua;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.col-md-5 {
+  background-color: cadetblue;
+  padding: 20px;
+}
+
+* {
+  color: white;
+}
+
+img {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  float: left;
+  margin-top: -25px;
+  padding: 15px;
+}
+
+.person {
+  margin-top: 100px;
+}
+
+button {
+  width: 40%;
+}
+
+h1 {
+  text-align: center;
+}
