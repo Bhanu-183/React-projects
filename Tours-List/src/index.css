@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.container-fluid {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(209, 61%, 16%);
+  background-color: rgb(223, 232, 248);
+}
+
+img {
+  height: 300px;
+  width: 100px;
+}
+
+.card {
+  width: 600px;
+  margin-left: 300px;
+  box-shadow: 0px 2px 10px rgb(184, 179, 179);
+  background-color: white;
+}
+
+.remove {
+  width: 200px;
+}
+@media only screen and (max-width: 360px) {
+  .card {
+    margin-left: auto;
+    width: auto;
+  }
+}
